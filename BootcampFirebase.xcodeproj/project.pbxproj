@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1507B88721F79AA70065A1D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1507B88621F79AA70065A1D4 /* AppDelegate.swift */; };
+		1507B88921F79AA70065A1D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1507B88821F79AA70065A1D4 /* ViewController.swift */; };
+		1507B88C21F79AA70065A1D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1507B88A21F79AA70065A1D4 /* Main.storyboard */; };
+		1507B88F21F79AA70065A1D4 /* BootcampFirebase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1507B88D21F79AA70065A1D4 /* BootcampFirebase.xcdatamodeld */; };
+		1507B89121F79AA90065A1D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1507B89021F79AA90065A1D4 /* Assets.xcassets */; };
+		1507B89421F79AA90065A1D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1507B89221F79AA90065A1D4 /* LaunchScreen.storyboard */; };
+		1507B89F21F79AA90065A1D4 /* BootcampFirebaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1507B89E21F79AA90065A1D4 /* BootcampFirebaseTests.swift */; };
+		1507B8AA21F79AA90065A1D4 /* BootcampFirebaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1507B8A921F79AA90065A1D4 /* BootcampFirebaseUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1507B89B21F79AA90065A1D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1507B87B21F79AA70065A1D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1507B88221F79AA70065A1D4;
+			remoteInfo = BootcampFirebase;
+		};
+		1507B8A621F79AA90065A1D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1507B87B21F79AA70065A1D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1507B88221F79AA70065A1D4;
+			remoteInfo = BootcampFirebase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1507B88321F79AA70065A1D4 /* BootcampFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BootcampFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1507B88621F79AA70065A1D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1507B88821F79AA70065A1D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1507B88B21F79AA70065A1D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1507B88E21F79AA70065A1D4 /* BootcampFirebase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BootcampFirebase.xcdatamodel; sourceTree = "<group>"; };
+		1507B89021F79AA90065A1D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1507B89321F79AA90065A1D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1507B89521F79AA90065A1D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1507B89A21F79AA90065A1D4 /* BootcampFirebaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BootcampFirebaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1507B89E21F79AA90065A1D4 /* BootcampFirebaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootcampFirebaseTests.swift; sourceTree = "<group>"; };
+		1507B8A021F79AA90065A1D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1507B8A521F79AA90065A1D4 /* BootcampFirebaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BootcampFirebaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1507B8A921F79AA90065A1D4 /* BootcampFirebaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootcampFirebaseUITests.swift; sourceTree = "<group>"; };
+		1507B8AB21F79AA90065A1D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1507B88021F79AA70065A1D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1507B89721F79AA90065A1D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1507B8A221F79AA90065A1D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1507B87A21F79AA70065A1D4 = {
+			isa = PBXGroup;
+			children = (
+				1507B88521F79AA70065A1D4 /* BootcampFirebase */,
+				1507B89D21F79AA90065A1D4 /* BootcampFirebaseTests */,
+				1507B8A821F79AA90065A1D4 /* BootcampFirebaseUITests */,
+				1507B88421F79AA70065A1D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1507B88421F79AA70065A1D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1507B88321F79AA70065A1D4 /* BootcampFirebase.app */,
+				1507B89A21F79AA90065A1D4 /* BootcampFirebaseTests.xctest */,
+				1507B8A521F79AA90065A1D4 /* BootcampFirebaseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1507B88521F79AA70065A1D4 /* BootcampFirebase */ = {
+			isa = PBXGroup;
+			children = (
+				1507B88621F79AA70065A1D4 /* AppDelegate.swift */,
+				1507B88821F79AA70065A1D4 /* ViewController.swift */,
+				1507B88A21F79AA70065A1D4 /* Main.storyboard */,
+				1507B89021F79AA90065A1D4 /* Assets.xcassets */,
+				1507B89221F79AA90065A1D4 /* LaunchScreen.storyboard */,
+				1507B89521F79AA90065A1D4 /* Info.plist */,
+				1507B88D21F79AA70065A1D4 /* BootcampFirebase.xcdatamodeld */,
+			);
+			path = BootcampFirebase;
+			sourceTree = "<group>";
+		};
+		1507B89D21F79AA90065A1D4 /* BootcampFirebaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				1507B89E21F79AA90065A1D4 /* BootcampFirebaseTests.swift */,
+				1507B8A021F79AA90065A1D4 /* Info.plist */,
+			);
+			path = BootcampFirebaseTests;
+			sourceTree = "<group>";
+		};
+		1507B8A821F79AA90065A1D4 /* BootcampFirebaseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1507B8A921F79AA90065A1D4 /* BootcampFirebaseUITests.swift */,
+				1507B8AB21F79AA90065A1D4 /* Info.plist */,
+			);
+			path = BootcampFirebaseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1507B88221F79AA70065A1D4 /* BootcampFirebase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1507B8AE21F79AA90065A1D4 /* Build configuration list for PBXNativeTarget "BootcampFirebase" */;
+			buildPhases = (
+				1507B87F21F79AA70065A1D4 /* Sources */,
+				1507B88021F79AA70065A1D4 /* Frameworks */,
+				1507B88121F79AA70065A1D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BootcampFirebase;
+			productName = BootcampFirebase;
+			productReference = 1507B88321F79AA70065A1D4 /* BootcampFirebase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1507B89921F79AA90065A1D4 /* BootcampFirebaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1507B8B121F79AA90065A1D4 /* Build configuration list for PBXNativeTarget "BootcampFirebaseTests" */;
+			buildPhases = (
+				1507B89621F79AA90065A1D4 /* Sources */,
+				1507B89721F79AA90065A1D4 /* Frameworks */,
+				1507B89821F79AA90065A1D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1507B89C21F79AA90065A1D4 /* PBXTargetDependency */,
+			);
+			name = BootcampFirebaseTests;
+			productName = BootcampFirebaseTests;
+			productReference = 1507B89A21F79AA90065A1D4 /* BootcampFirebaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1507B8A421F79AA90065A1D4 /* BootcampFirebaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1507B8B421F79AA90065A1D4 /* Build configuration list for PBXNativeTarget "BootcampFirebaseUITests" */;
+			buildPhases = (
+				1507B8A121F79AA90065A1D4 /* Sources */,
+				1507B8A221F79AA90065A1D4 /* Frameworks */,
+				1507B8A321F79AA90065A1D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1507B8A721F79AA90065A1D4 /* PBXTargetDependency */,
+			);
+			name = BootcampFirebaseUITests;
+			productName = BootcampFirebaseUITests;
+			productReference = 1507B8A521F79AA90065A1D4 /* BootcampFirebaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1507B87B21F79AA70065A1D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = TechCampus;
+				TargetAttributes = {
+					1507B88221F79AA70065A1D4 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					1507B89921F79AA90065A1D4 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 1507B88221F79AA70065A1D4;
+					};
+					1507B8A421F79AA90065A1D4 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 1507B88221F79AA70065A1D4;
+					};
+				};
+			};
+			buildConfigurationList = 1507B87E21F79AA70065A1D4 /* Build configuration list for PBXProject "BootcampFirebase" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1507B87A21F79AA70065A1D4;
+			productRefGroup = 1507B88421F79AA70065A1D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1507B88221F79AA70065A1D4 /* BootcampFirebase */,
+				1507B89921F79AA90065A1D4 /* BootcampFirebaseTests */,
+				1507B8A421F79AA90065A1D4 /* BootcampFirebaseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1507B88121F79AA70065A1D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1507B89421F79AA90065A1D4 /* LaunchScreen.storyboard in Resources */,
+				1507B89121F79AA90065A1D4 /* Assets.xcassets in Resources */,
+				1507B88C21F79AA70065A1D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1507B89821F79AA90065A1D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1507B8A321F79AA90065A1D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1507B87F21F79AA70065A1D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1507B88921F79AA70065A1D4 /* ViewController.swift in Sources */,
+				1507B88721F79AA70065A1D4 /* AppDelegate.swift in Sources */,
+				1507B88F21F79AA70065A1D4 /* BootcampFirebase.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1507B89621F79AA90065A1D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1507B89F21F79AA90065A1D4 /* BootcampFirebaseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1507B8A121F79AA90065A1D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1507B8AA21F79AA90065A1D4 /* BootcampFirebaseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1507B89C21F79AA90065A1D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1507B88221F79AA70065A1D4 /* BootcampFirebase */;
+			targetProxy = 1507B89B21F79AA90065A1D4 /* PBXContainerItemProxy */;
+		};
+		1507B8A721F79AA90065A1D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1507B88221F79AA70065A1D4 /* BootcampFirebase */;
+			targetProxy = 1507B8A621F79AA90065A1D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1507B88A21F79AA70065A1D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1507B88B21F79AA70065A1D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1507B89221F79AA90065A1D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1507B89321F79AA90065A1D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1507B8AC21F79AA90065A1D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1507B8AD21F79AA90065A1D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1507B8AF21F79AA90065A1D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UR64E8K793;
+				INFOPLIST_FILE = BootcampFirebase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = razan.BootcampFirebase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1507B8B021F79AA90065A1D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UR64E8K793;
+				INFOPLIST_FILE = BootcampFirebase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = razan.BootcampFirebase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1507B8B221F79AA90065A1D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UR64E8K793;
+				INFOPLIST_FILE = BootcampFirebaseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = razan.BootcampFirebaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BootcampFirebase.app/BootcampFirebase";
+			};
+			name = Debug;
+		};
+		1507B8B321F79AA90065A1D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UR64E8K793;
+				INFOPLIST_FILE = BootcampFirebaseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = razan.BootcampFirebaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BootcampFirebase.app/BootcampFirebase";
+			};
+			name = Release;
+		};
+		1507B8B521F79AA90065A1D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UR64E8K793;
+				INFOPLIST_FILE = BootcampFirebaseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = razan.BootcampFirebaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BootcampFirebase;
+			};
+			name = Debug;
+		};
+		1507B8B621F79AA90065A1D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UR64E8K793;
+				INFOPLIST_FILE = BootcampFirebaseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = razan.BootcampFirebaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BootcampFirebase;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1507B87E21F79AA70065A1D4 /* Build configuration list for PBXProject "BootcampFirebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1507B8AC21F79AA90065A1D4 /* Debug */,
+				1507B8AD21F79AA90065A1D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1507B8AE21F79AA90065A1D4 /* Build configuration list for PBXNativeTarget "BootcampFirebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1507B8AF21F79AA90065A1D4 /* Debug */,
+				1507B8B021F79AA90065A1D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1507B8B121F79AA90065A1D4 /* Build configuration list for PBXNativeTarget "BootcampFirebaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1507B8B221F79AA90065A1D4 /* Debug */,
+				1507B8B321F79AA90065A1D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1507B8B421F79AA90065A1D4 /* Build configuration list for PBXNativeTarget "BootcampFirebaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1507B8B521F79AA90065A1D4 /* Debug */,
+				1507B8B621F79AA90065A1D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1507B88D21F79AA70065A1D4 /* BootcampFirebase.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1507B88E21F79AA70065A1D4 /* BootcampFirebase.xcdatamodel */,
+			);
+			currentVersion = 1507B88E21F79AA70065A1D4 /* BootcampFirebase.xcdatamodel */;
+			path = BootcampFirebase.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1507B87B21F79AA70065A1D4 /* Project object */;
+}
